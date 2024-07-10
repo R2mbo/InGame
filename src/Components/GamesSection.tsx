@@ -90,7 +90,7 @@ const GamesSection: React.FC<PlatformProps> = ({ plat, searchQuery }) => {
                 src={game.thumbnail}
                 alt={game.title}
               />
-              <div className="font-bold text-white md:text-lg px-3">
+              <div className="font-bold text-white md:text-lg px-3 mb-16">
                 <p>Game Type: {game.genre}</p>
                 <p>Platform: {game.platform}</p>
               </div>
@@ -98,7 +98,7 @@ const GamesSection: React.FC<PlatformProps> = ({ plat, searchQuery }) => {
                 href={game.game_url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-orange-500 font-bold md:text-lg transition-all ml-2 block w-fit text-gray-950 hover:text-orange-500 hover:bg-gray-950 border-2 border-orange-500 md:px-2 rounded-md p-1 mt-16 mx-auto"
+                className="bg-orange-500 font-bold md:text-lg transition-all ml-2 block w-fit text-gray-950 hover:text-orange-500 hover:bg-gray-950 border-2 border-orange-500 md:px-2 rounded-md p-1 mx-auto"
               >
                 More Info ?
               </a>
