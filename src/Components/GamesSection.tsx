@@ -72,7 +72,7 @@ const GamesSection: React.FC<PlatformProps> = ({ plat, searchQuery }) => {
   return (
     <>
       <h1 className="text-center text-white font-bold sm:text-4xl mb-4">My Games List</h1>
-      <section className="text-black min-h-screen flex justify-center flex-wrap gap-7 p-6">
+      <section className="text-black min-h-fit flex justify-center flex-wrap gap-7 p-6">
         {loading && (
           <p className="text-2xl font-bold text-white">Loading...</p>
         )}
