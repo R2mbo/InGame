@@ -27,8 +27,8 @@ function App() {
 
   const fetchAllGames = (platform: string | null) => {
     const url = platform
-      ? `https://www.freetogame.com/api/games?platform=${platform}`
-      : `https://www.freetogame.com/api/games?platform=pc`;
+      ? `https://corsproxy.io/?https://www.freetogame.com/api/games?platform=${platform}`
+      : `https://corsproxy.io/?https://www.freetogame.com/api/games?platform=pc`;
 
     fetch(url)
       .then((response) => response.json())
