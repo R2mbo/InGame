@@ -90,7 +90,7 @@ const GamesSection: React.FC<PlatformProps> = ({ plat, searchQuery }) => {
                 src={game.thumbnail}
                 alt={game.title}
               />
-              <div className="font-bold text-white md:text-lg px-3 mb-16">
+              <div className="font-bold text-white md:text-lg px-3">
                 <p>Game Type: {game.genre}</p>
                 <p>Platform: {game.platform}</p>
               </div>
