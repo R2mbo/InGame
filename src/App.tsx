@@ -80,7 +80,7 @@ function App() {
             <ul className="flex space-x-8 md:text-xl text-lg">
               <li className="group relative py-[20px]">
                 Platforms
-                <ul className="absolute top-[50px] rounded-b-lg border-black border-2 md:top-[65px] bg-white w-[100px] text-sm md:text-lg hidden group-hover:block">
+                <ul className="absolute z-50 top-[50px] rounded-b-lg border-black border-2 md:top-[65px] bg-white w-[100px] text-sm md:text-lg hidden group-hover:block">
                   <li
                     className="cursor-pointer p-2"
                     onClick={() => myPlatform("pc")}
