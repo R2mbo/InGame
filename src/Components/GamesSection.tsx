@@ -26,7 +26,7 @@ const GamesSection: React.FC<PlatformProps> = ({ plat, searchQuery }) => {
     setLoading(true);
     const url = platform
       ? `https://corsproxy.io/?https://www.freetogame.com/api/games?platform=${platform}`
-      : `https://corsproxy.io/?https://www.freetogame.com/api/games?platform=pc`;
+      : `https://corsproxy.io/?https://www.freetogame.com/api/games`;
 
     fetch(url)
       .then((response) => response.json())
