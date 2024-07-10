@@ -80,7 +80,7 @@ const GamesSection: React.FC<PlatformProps> = ({ plat, searchQuery }) => {
           currentGames.map((game) => (
             <div
               key={game.id}
-              className="bg-gray-200 py-3 hover:scale-105 transition-all duration-[0.4s] space-y-3 h-fit rounded-md group"
+              className="bg-gray-950 py-3 hover:scale-105 border-2 border-orange-500 rounded-md transition-all duration-[0.4s] space-y-3 h-fit rounded-md group"
             >
               <h3 className="md:text-xl text-2xl px-3 font-bold my-3">
                 {game.title}
@@ -98,7 +98,7 @@ const GamesSection: React.FC<PlatformProps> = ({ plat, searchQuery }) => {
                 href={game.game_url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-black font-bold md:text-lg ml-2 block w-fit text-white md:px-2 rounded-md p-1 mt-6 mx-auto"
+                className="bg-orange-500 font-bold md:text-lg ml-2 block w-fit text-gray-950 hover:text-orange-500 hover:bg-gray-950 hover:outline-2 hover:outline-orange-500 md:px-2 rounded-md p-1 mt-6 mx-auto"
               >
                 More Info ?
               </a>
