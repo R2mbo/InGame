@@ -98,7 +98,7 @@ const GamesSection: React.FC<PlatformProps> = ({ plat, searchQuery }) => {
                 href={game.game_url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-orange-500 font-bold md:text-lg transition-all ml-2 block w-fit text-gray-950 hover:text-orange-500 hover:bg-gray-950 border-2 border-orange-500 md:px-2 rounded-md p-1 mt-9 mx-auto"
+                className="bg-orange-500 font-bold md:text-lg transition-all ml-2 block w-fit text-gray-950 hover:text-orange-500 hover:bg-gray-950 border-2 border-orange-500 md:px-2 rounded-md p-1 mt-16 mx-auto"
               >
                 More Info ?
               </a>
