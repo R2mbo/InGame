@@ -80,7 +80,7 @@ const GamesSection: React.FC<PlatformProps> = ({ plat, searchQuery }) => {
           currentGames.map((game) => (
             <div
               key={game.id}
-              className="bg-gray-950 py-3 hover:scale-105 border-2 border-orange-500 rounded-md transition-all duration-[0.4s] space-y-3 h-[440px] rounded-md group"
+              className="bg-gray-950 py-3 hover:scale-105 border-2 border-orange-500 rounded-md transition-all duration-[0.4s] space-y-3 group"
             >
               <h3 className="md:text-xl text-white text-2xl px-3 font-bold my-3">
                 {game.title}
