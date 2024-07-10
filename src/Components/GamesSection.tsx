@@ -82,7 +82,7 @@ const GamesSection: React.FC<PlatformProps> = ({ plat, searchQuery }) => {
               key={game.id}
               className="bg-gray-950 py-3 hover:scale-105 border-2 border-orange-500 rounded-md transition-all duration-[0.4s] space-y-3 h-fit rounded-md group"
             >
-              <h3 className="md:text-xl text-2xl px-3 font-bold my-3">
+              <h3 className="md:text-xl text-white text-2xl px-3 font-bold my-3">
                 {game.title}
               </h3>
               <img
@@ -90,7 +90,7 @@ const GamesSection: React.FC<PlatformProps> = ({ plat, searchQuery }) => {
                 src={game.thumbnail}
                 alt={game.title}
               />
-              <div className="font-bold md:text-lg px-3">
+              <div className="font-bold text-white md:text-lg px-3">
                 <p>Game Type: {game.genre}</p>
                 <p>Platform: {game.platform}</p>
               </div>
